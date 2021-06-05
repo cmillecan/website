@@ -34,7 +34,9 @@ const NavBar = () => {
             </div>
           </Route>
           <Route path="/">
-            <div className="blog-title">CONSTANCE MILLECAN</div>
+            <div className="blog-title">
+              CONSTANCE MILLECAN
+            </div>
           </Route>
         </Switch>
         <ul className="links">

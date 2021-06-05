@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin: 20px 0 25px;
+    margin: 20px 0 0;
 }
 
 .resume-button {
@@ -78,6 +78,9 @@
 .social {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0;
 }
 
 .social a {

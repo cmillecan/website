@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Article.css";
-import samplePic from "../../images/samplepic.webp";
 import { contentToMinutes } from "../../helpers";
 import ReactMarkdown from "react-markdown";
 import Client from "../../client";
@@ -19,7 +18,7 @@ const Article = (props) => {
 
   if (!article) return <div>Loading...</div>;
 
-  const { title, date, content } = article;
+  const { title, date, content, imageURL } = article;
   const newDate = new Date(date);
   const formattedDate = format(newDate, "MMMM d, yyyy");
   return (
@@ -34,8 +33,7 @@ const Article = (props) => {
           </p>
         </div>
         <div className="article-image">
-          {" "}
-          <img className="article-post-img" src={samplePic} alt="sample" />
+          <img className="article-post-img" src={imageURL} alt="image" />
         </div>
         <div className="article-content">
           <ReactMarkdown children={content} />

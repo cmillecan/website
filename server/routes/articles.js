@@ -23,6 +23,7 @@ router.post("/", async (req, res) => {
     title: req.body.title,
     description: req.body.description,
     content: req.body.content,
+    imageURL: req.body.imageURL
   });
   try {
     await article.save();

@@ -6,7 +6,7 @@ const ResumeButton = styled.a`
   font-size: 14px;
   color: var(--black);
   background: transparent;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--blue);
   cursor: pointer;
   font-family: "Lato", sans-serif;
   font-weight: lighter;
@@ -17,9 +17,9 @@ const ResumeButton = styled.a`
 
   &:hover {
     color: white;
-    background: var(--pink);
+    background: var(--blue);
     transition: 0.2s;
-    border: 1px solid var(--pink);
+    border: 1px solid var(--blue);
   }
 `;
 
@@ -29,6 +29,18 @@ const About = () => {
       <div className="about-div">
         <div className="welcome-message">
           <h6>Hi, I'm Connie</h6>
+          <div className="social">
+            <a href="https://www.linkedin.com/in/constance-m-8672151a1/" target="_blank" rel="noreferrer">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="http://github.com/cmillecan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github-alt"></i>
+            </a>
+          </div>
         </div>
         <div className="about-box">
           <div className="about-left">

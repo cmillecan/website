@@ -67,6 +67,6 @@
 
 .project-links a:hover {
     background-color: var(--white);
-    color: var(--pink);
-    border: 1px solid var(--pink);
+    color: var(--blue);
+    border: 1px solid var--pink();
 }

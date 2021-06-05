@@ -1,5 +1,4 @@
 :root {
-    --lightgreen2: #d0efdd;
     --green: #d0efdd;
     --green2: #BBD0BA;
     --lightgreen: #c6dbda;
@@ -8,7 +7,7 @@
     --white: #ffffff;
     --beige: #E3D8D0;
     --darkbeige: #CCBEB7;
-    --pink: #eaccca;
+    --pink: #f1a595ff;
     --black: #484848;
     --gray: dimgray;
     --purple: #A5A6BC;
@@ -93,7 +92,7 @@ p {
 }
 
 p strong {
-    color: var(--darkgreen);
+    color: var(--blue);
 }
 
 

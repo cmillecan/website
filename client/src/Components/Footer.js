@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <img src={flower} alt="constance millecan website logo" />
-        <p> © 2021 Designed by Constance Millecan</p>
+        <p> © 2021 Design by Constance Millecan</p>
       </div>
     </div>
   );

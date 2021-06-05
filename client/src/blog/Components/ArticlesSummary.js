@@ -1,20 +1,19 @@
 import React from "react";
 import "./ArticlesSummary.css";
-import samplePic2 from "../../images/samplepic2.jpg";
+// import samplePic2 from "../../images/samplepic2.jpg";
 import { contentToMinutes } from "../../helpers";
 import { Link } from "react-router-dom";
 import { format } from "date-fns";
 
-// TODO: Connie - format dates with date-fns
 // TODO: Connie - add image url to article schema (required!)
-const Summary = ({ id, description, title, date, content }) => {
+const Summary = ({ id, description, title, date, content, imageURL }) => {
   const newDate = new Date(date);
   const formattedDate = format(newDate, "MMMM d, yyyy");
-
+  console.log("imageURL is: ", imageURL)
   return (
     <Link className="post-item" to={`/blog/${id}`}>
       <div className="post-item-image">
-        <img className="blog-post-img" src={samplePic2} alt="sample" />
+        <img className="blog-post-img" src={imageURL} alt="image" />
       </div>
       <div className="post-item-date">
         <p>
@@ -45,6 +44,7 @@ const ArticlesSummary = ({ articles }) => {
             date={a.date}
             content={a.content}
             id={a._id}
+            imageURL={a.imageURL}
           />
         ))}
       </div>
