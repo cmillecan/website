@@ -1,0 +1,66 @@
+/* Class */
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--lightgreen2);
+    color: var(--white);
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+li {
+    font-family: 'Karla', sans-serif;
+    color: var(--black);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.li:hover {
+    color: var(--darkgreen);
+    transition: 0.2s;
+}
+
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.blog-title {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin-left: 100px;
+}
+
+.bytes {
+    margin: 0 10px;
+    width: 40px;
+    color: var(--black);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.active {
+    color: var(--darkgreen);
+}

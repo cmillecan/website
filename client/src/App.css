@@ -1,0 +1,111 @@
+:root {
+    --lightgreen2: #d0efdd;
+    --green: #d0efdd;
+    --green2: #BBD0BA;
+    --lightgreen: #c6dbda;
+    --darkgreen: #bad2c5;
+    --ivory: #F5ECDB;
+    --white: #ffffff;
+    --beige: #E3D8D0;
+    --darkbeige: #CCBEB7;
+    --pink: #eaccca;
+    --black: #484848;
+    --gray: dimgray;
+    --purple: #A5A6BC;
+    --blue: #87abd2ff;
+    --bluegreen: #8fcaca;
+    --orange: #ffc8a2;
+    --rose: #fee1e8;
+    --lightbackground: #f6f5f5;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    color: var(--darkgreen);
+    letter-spacing: 0.08em;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+}
+
+h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--darkgreen);
+    font-family: 'Work Sans', sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--black);
+    margin: 0;
+}
+
+h5 {
+    line-height: 0;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--blue);
+    margin: 20px 0 15px;
+}
+
+h6 {
+    margin: 10px;
+    line-height: 0;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: var(--darkgreen);
+}
+
+.korean {
+    margin: 10px;
+    font-family: 'Hi Melody', cursive;
+    font-size: 30px;
+    color: var(--black);
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: var(--gray);
+    font-size: 16px;
+    margin: 0;
+}
+
+p strong {
+    color: var(--darkgreen);
+}
+
+
+a {
+    font-family: 'Karla', sans-serif;
+    color: var(--black);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: var(--darkgreen);
+    transition: 0.2s;
+}

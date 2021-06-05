@@ -1,0 +1,45 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.article-content {
+    width: 750px;
+}
+
+.article-title {
+    margin: 10px;
+}
+
+.article-date {
+    margin: 0 10px 5px;
+}
+
+.date {
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+
+.article-image {
+    margin: 10px;
+}
+
+.article-post-img {
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+
+.article-content {
+    margin: 10px;
+}
+
+.article-content p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}

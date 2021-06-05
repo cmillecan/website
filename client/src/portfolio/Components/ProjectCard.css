@@ -1,0 +1,72 @@
+.projects-display {
+    margin-top: 0;
+}
+
+.complete-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 520px;
+    min-height: 520px;
+}
+
+.project-name {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.project-type {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.project-type h5 {
+    margin-top: 10px;
+}
+
+.project-img img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 3px 5px #ababab;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    max-height: 100px;
+    min-height: 100px;
+    line-height: 20px;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.project-links a {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--pink);
+    padding: 1px 5px;
+}
+
+.project-links a:hover {
+    background-color: var(--white);
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
