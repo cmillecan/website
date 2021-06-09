@@ -52,7 +52,7 @@ const About = () => {
           </div>
           <div className="about-right">
             <p className="about">
-              I am a <strong>software engineer</strong> and{" "}
+              I'm a <strong>software engineer</strong> and{" "}
               <strong>musician</strong> passionate about creativity. Originally
               I had studied music in college, but recently I pursued and
               finished an education in computer science. I had my first

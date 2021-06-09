@@ -41,8 +41,8 @@ li {
     align-items: center;
     color: var(--black);
     font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 0.2em;
+    font-size: 26px;
+    letter-spacing: 0.1em;
     margin-left: 100px;
 }
 
@@ -61,6 +61,23 @@ li {
     list-style-type: none;
 }
 
-.active {
+.links a {
+    font-family: 'Karla', sans-serif;
+    color: var(--black);
+    letter-spacing: 0.08em;
+    font-weight: lighter;
+}
+
+.links a:hover {
     color: var(--darkgreen);
+    transition: 0.2s;
+}
+
+a.active {
+    color: var(--blue);
+    cursor: default;
+}
+
+a.active:hover {
+    color: var(--blue);
 }

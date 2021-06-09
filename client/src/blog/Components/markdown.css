@@ -1,0 +1,105 @@
+/* code block */
+.markdown-content {
+    margin: 10px;
+}
+.markdown-content pre {
+    background-color: #fafafa;
+    overflow: auto;
+    word-wrap: normal;
+    padding: .85em 1em;
+    margin-bottom: 1.275em;
+}
+
+.markdown-content pre .highlight {
+    background-color: #fafafa;
+}
+
+.markdown-content code {
+    color: #ff9cf5;
+    font-size: 14px;
+}
+
+/* quotes */
+.markdown-content blockquote {
+    background: var(--lightbackground);
+    border-left: 8px solid #e9e9e9;
+    margin: 1.5em 10px;
+    padding: 2em 10px .1em 10px;
+}
+
+/* tables */
+.markdown-content tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.markdown-content th {
+    text-align: inherit;
+}
+
+.markdown-content .table .thead-light th {
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.markdown-content .table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+
+.markdown-content .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.markdown-content .table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+/* lists */
+.markdown-content li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    color: var(--blue);
+}
+
+.markdown-content h1 {
+    font-family: 'Karla', sans-serif;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+}
+
+.markdown-content h2 {
+    color: var(--black);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    letter-spacing: 0.03em;
+    font-size: 22px;
+}
+
+.markdown-content h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--darkgreen);
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* hr */
+.markdown-content hr {
+   border: 1px solid var(--lightbackground);
+}
+
+/* links */
+.markdown-content a {
+    color: var(--bluegreen);
+}
+
+/* images */
+.markdown-content img {
+    max-width: 750px;
+}

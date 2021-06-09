@@ -1,15 +1,14 @@
 import React from "react";
 import "./ArticlesSummary.css";
-// import samplePic2 from "../../images/samplepic2.jpg";
 import { contentToMinutes } from "../../helpers";
 import { Link } from "react-router-dom";
 import { format } from "date-fns";
 
-// TODO: Connie - add image url to article schema (required!)
+// TODO: Connie - order posts by date!
 const Summary = ({ id, description, title, date, content, imageURL }) => {
   const newDate = new Date(date);
   const formattedDate = format(newDate, "MMMM d, yyyy");
-  console.log("imageURL is: ", imageURL)
+  console.log("imageURL is: ", imageURL);
   return (
     <Link className="post-item" to={`/blog/${id}`}>
       <div className="post-item-image">

@@ -6,11 +6,11 @@
     --ivory: #F5ECDB;
     --white: #ffffff;
     --beige: #E3D8D0;
-    --darkbeige: #CCBEB7;
+    --darkbeige: #bfaba4;
     --pink: #f1a595ff;
     --black: #484848;
     --gray: dimgray;
-    --purple: #A5A6BC;
+    --purple: #707296;
     --blue: #87abd2ff;
     --bluegreen: #8fcaca;
     --orange: #ffc8a2;
@@ -95,16 +95,14 @@ p strong {
     color: var(--blue);
 }
 
-
-a {
-    font-family: 'Karla', sans-serif;
-    color: var(--black);
-    text-decoration: none;
-    letter-spacing: 0.08em;
-    font-weight: lighter;
+p em {
+    color: var(--pink);
 }
 
-a:hover {
+p u {
     color: var(--darkgreen);
-    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
 }

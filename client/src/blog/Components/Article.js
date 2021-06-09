@@ -4,6 +4,7 @@ import { contentToMinutes } from "../../helpers";
 import ReactMarkdown from "react-markdown";
 import Client from "../../client";
 import { format } from "date-fns";
+import "./markdown.css";
 
 const Article = (props) => {
   const articleId = props.match.params.articleId;
@@ -35,7 +36,7 @@ const Article = (props) => {
         <div className="article-image">
           <img className="article-post-img" src={imageURL} alt="image" />
         </div>
-        <div className="article-content">
+        <div className="markdown-content">
           <ReactMarkdown children={content} />
         </div>
       </div>

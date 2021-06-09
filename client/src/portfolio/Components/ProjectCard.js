@@ -18,9 +18,7 @@ const ProjectCard = (props) => {
           <div className="project-description">
             <p>{description}</p>
             <div className="project-links">
-              <a href={github} target="_blank" rel="noreferrer">
-                Github
-              </a>
+              {github}
               {demo}
             </div>
           </div>

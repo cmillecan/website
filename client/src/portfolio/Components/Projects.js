@@ -7,6 +7,59 @@ const Projects = () => {
     <div className="portfolio-container">
       <div className="projects-content">
         <ProjectCard
+          title="Blog"
+          type="full-stack web application"
+          date=""
+          image={
+            <img
+              className="project-img"
+              src="https://i.imgur.com/FfwZi9s.png"
+              alt="music app"
+            />
+          }
+          description="An interactive and educational game for learning Major and Minor Triads on a musical keyboard. Technologies include React and Tone.js - a Web Audio framework. "
+          demo={
+            <a
+              href="https://cmillecan.github.io/memory-game/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Blog
+            </a>
+          }
+        />
+        <ProjectCard
+          title="Music Game"
+          type="front-end web application"
+          date=""
+          image={
+            <img
+              className="project-img"
+              src="https://i.imgur.com/y2bVgIM.png"
+              alt="music app"
+            />
+          }
+          description="An interactive and educational game for learning Triads on a musical keyboard. Technologies include React and Tone.js - a Web Audio framework. "
+          demo={
+            <a
+              href="https://cmillecan.github.io/music-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Demo
+            </a>
+          }
+          github={
+            <a
+              href="http://github.com/cmillecan/music-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
+        />
+        <ProjectCard
           title="Disneyland App"
           type="full-stack web application"
           date="April 2021"
@@ -14,14 +67,21 @@ const Projects = () => {
             <img
               className="project-img"
               src="https://i.imgur.com/FfwZi9s.png"
-              alt="memory game"
+              alt="disneyland app"
             />
           }
           description="This project primarily focuses on a back-end which stores information of a variety of Disney resources such as
 attractions and park information. It includes APIs which follow RESTful principles to expose end-points of each
-resource. It also has an accompanying front-end built with React to act as a client to the back-end.
-Technologies include MongoDB, Express.js, React. "
-          github="http://github.com/cmillecan/disneyland-app"
+resource. Technologies include MongoDB, Express.js, React. "
+          github={
+            <a
+              href="http://github.com/cmillecan/disneyland-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
         <ProjectCard
           title="Memory Game"
@@ -44,22 +104,17 @@ Technologies include MongoDB, Express.js, React. "
               View Demo
             </a>
           }
-          github="http://github.com/cmillecan/memory-game"
-        />
-        <ProjectCard
-          title="Portfolio Site"
-          type="front-end web application"
-          date="January 2021"
-          image={
-            <img
-              className="project-img"
-              src="https://i.imgur.com/uz67VLv.png"
-              alt="portfolio"
-            />
+          github={
+            <a
+              href="http://github.com/cmillecan/memory-game"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           }
-          description="I built my portfolio site with React and used it as a fun opportunity to get even more familiar with the JavaScript framework. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
-          github="http://github.com/cmillecan/portfolio"
         />
+
         <ProjectCard
           title="FitApp"
           type="full-stack web application"
@@ -82,22 +137,15 @@ Technologies include MongoDB, Express.js, React. "
               Watch Demo
             </a>
           }
-          github="http://github.com/cmillecan/fitapp"
-        />
-
-        <ProjectCard
-          title="Simple Shell"
-          type="linux and unix system programming"
-          date="April 2020"
-          image={
-            <img
-              className="project-img"
-              src="https://i.imgur.com/JGtEbvS.jpg"
-              alt="simple shell"
-            />
+          github={
+            <a
+              href="http://github.com/cmillecan/fitapp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
           }
-          description="Simple Shell reproduces the behavior of the Bash Shell, including a REPL-like mechanism to run programs in forked processes. This project was written in the C programming language."
-          github="http://github.com/cmillecan/simple_shell"
         />
       </div>
     </div>

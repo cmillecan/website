@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <div>Home!</div>
+            <About />
           </Route>
           <Route path="/about">
             <About />

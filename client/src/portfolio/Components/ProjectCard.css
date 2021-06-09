@@ -15,10 +15,9 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
-    max-width: 300px;
-    min-width: 300px;
-    max-height: 520px;
-    min-height: 520px;
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 500px;
 }
 
 .project-name {
@@ -61,12 +60,11 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
     background-color: var(--white);
-    border: 1px solid var(--pink);
+    border: 1px solid var(--darkgreen);
     padding: 1px 5px;
 }
 
 .project-links a:hover {
     background-color: var(--white);
-    color: var(--blue);
-    border: 1px solid var--pink();
+    border: 1px solid var(--blue);
 }
