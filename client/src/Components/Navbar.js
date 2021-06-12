@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink, Switch, Route } from "react-router-dom";
-// import bytes from "../images/notesandbytes2.svg";
+import bytes from "../images/notesandbytes2.svg";
 
 const NavBar = () => {
   const li = [
@@ -25,11 +25,11 @@ const NavBar = () => {
         <Switch>
           <Route path="/blog">
             <div className="blog-title">
-              {/*<img*/}
-              {/*  className="bytes"*/}
-              {/*  src={bytes}*/}
-              {/*  alt="constance millecan website logo"*/}
-              {/*/>*/}
+              <img
+                className="bytes"
+                src={bytes}
+                alt="constance millecan website logo"
+              />
               NOTES & BYTES
             </div>
           </Route>

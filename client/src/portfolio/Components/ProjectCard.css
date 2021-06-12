@@ -54,17 +54,14 @@
     text-align: left;
     margin-top: 10px;
     margin-right: 30px;
+    font-size: 20px;
 }
 
 .project-links a {
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
-    background-color: var(--white);
-    border: 1px solid var(--darkgreen);
-    padding: 1px 5px;
 }
 
 .project-links a:hover {
-    background-color: var(--white);
-    border: 1px solid var(--blue);
+    color: var(--blue);
 }
